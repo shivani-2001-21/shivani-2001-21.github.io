@@ -52,17 +52,7 @@ CORS(app)
 
 
 
-@celery.task()
-def add_together(a, b):
-    time.sleep(5)
-    return a + b
 
-
-from celery.result import AsyncResult
-
-import smtplib
-
- 
 # @app.route("/gen_csv/<string:t_s>/<int:id>")
 # # @auth_required('token')
 # def gen_csv(t_s,id):
