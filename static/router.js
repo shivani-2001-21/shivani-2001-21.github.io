@@ -2,7 +2,7 @@ import homepage from "./components/homepage.js"
 const routes=[
 
     {   
-        path:"/user_home",
+        path:"/homepage",
         component:homepage,
     }
    
